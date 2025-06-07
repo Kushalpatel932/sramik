@@ -25,8 +25,9 @@ SECRET_KEY = 'django-insecure-b(po@q!j#lrrovomz3=gi&4n=)^l$0q+pv0u*@d=4n)zzf&8__
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-
-ALLOWED_HOSTS =  os.environ.get('ALLOWED_HOSTS') #["sramik.onrender.com","localhost","127.0.0.1"]
+allowed_hosts =  os.environ.get('ALLOWED_HOSTS')
+print("---------",allowed_hosts)
+ALLOWED_HOSTS = [host.strip() for host in allowed_hosts.split(",") if host.strip()] #["sramik.onrender.com","localhost","127.0.0.1"]
 
 # Application definition
 
