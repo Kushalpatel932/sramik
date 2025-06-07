@@ -27,7 +27,8 @@ DEBUG = True
 
 allowed_hosts =  os.environ.get('ALLOWED_HOSTS')
 print("---------",allowed_hosts)
-ALLOWED_HOSTS = [host.strip() for host in allowed_hosts.split(",") if host.strip()] #["sramik.onrender.com","localhost","127.0.0.1"]
+print("type------------",type(allowed_hosts))
+ALLOWED_HOSTS = ['sramik.onrender.com'] #["sramik.onrender.com","localhost","127.0.0.1"]
 
 # Application definition
 
