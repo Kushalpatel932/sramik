@@ -1,0 +1,76 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<div class="hero-fullscreen">
+            <div class="hero-fullscreen-padding">
+                <div class="container">
+                    <div data-w-id="7a367409-d9dd-bb79-df7a-1ffc3f5d26c1" class="hero-fullscreen-layout">
+                        <div data-wf--marker--variant="dark-background" class="marker">
+                            <div class="marker-title-wrapper">
+                                <img src="{% static 'images/674df336a930ddd34ee3f5c6_line_start_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604 for-dark-bg"/>
+                                <img src="{% static 'images/674df336a930ddd34ee3f5ba_line_start_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604"/>
+                                <div class="marker-title">Welcome</div>
+                                <img src="{% static 'images/674df336a930ddd34ee3f5bb_line_end_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604"/>
+                                <img src="{% static 'images/674df336a930ddd34ee3f5c7_line_end_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604 for-dark-bg"/>
+                            </div>
+                            <div class="marker-number">I</div>
+                        </div>
+                        <div data-w-id="7a367409-d9dd-bb79-df7a-1ffc3f5d26c2" class="hero-fullscreen-title">
+                            <h1 class="heading is-extra-large-title">From Our Farm to Your Table, Pure and Organic Coming Soon</h1>
+                        </div>
+                        <div data-w-id="00e77b4c-5ec2-6f4b-a7eb-d386f4d42ef0" class="hero-fullscreen-buttons">
+                            <a href="#the-farm" class="main-button w-inline-block">
+                                <p class="main-button-text">Our Farm</p>
+                                <img src="{% static 'images/674df336a930ddd34ee3f58a_arrow_forward_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                            </a>
+                            <a href="#discover" class="main-button is-transparent w-inline-block">
+                                <p class="main-button-text">Discover</p>
+                                <img src="{% static 'images/674df336a930ddd34ee3f5b9_arrow_downward_24dp_E0F8EC_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image-for-desktop">
+                <div class="image-3d-parallax">
+                    <div class="_3d-block">
+                        <div class="_3d-trigger">
+                            <div class="image-animation-trigger">
+                                <div class="parallax-animation">
+                                    <div class="animation-color-bg"></div>
+                                     <img 
+                                        src="{% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3.avif' %}" 
+                                        alt="Farm harvest" 
+                                        sizes="100vw"
+                                        srcset="
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3-p-500.jpg' %} 500w,
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3-p-800.jpg' %} 800w,
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3-p-1080.jpg' %} 1080w,
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3-p-1600.jpg' %} 1600w,
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3-p-2000.jpg' %} 2000w,
+                                            {% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3.avif' %} 2912w
+                                        "
+                                        class="cover-image is-parallax"
+                                        />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img 
+                src="{% static 'images/674df336a930ddd34ee3f28e/674e0ac9f776df39fbd3d3f5_pexels-nc-farm-bureau-mark-28387810-phone.webp' %}" 
+                alt="Vegatables" 
+                sizes="100vw" 
+                srcset="
+                    {% static 'images/674df336a930ddd34ee3f28e/674e0ac9f776df39fbd3d3f5_pexels-nc-farm-bureau-mark-28387810-phone-p-500.webp' %} 500w, 
+                    {% static 'images/674df336a930ddd34ee3f28e/674e0ac9f776df39fbd3d3f5_pexels-nc-farm-bureau-mark-28387810-phone-p-800.webp' %} 800w, 
+                    {% static 'images/674df336a930ddd34ee3f28e/674e0ac9f776df39fbd3d3f5_pexels-nc-farm-bureau-mark-28387810-phone.webp' %} 1000w
+                " 
+                class="hero-image-for-mobile"
+                />
+            <div data-w-id="ce377bfb-ac4b-6a6f-095f-9b1126a9e010" class="hero-fullscreen-gradient"></div>
+        </div>
+{% endblock %}
