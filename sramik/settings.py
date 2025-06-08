@@ -28,8 +28,6 @@ SECRET_KEY = os.environ.get('SECRET_KEY', default='django-insecure-b(po@q!j#lrro
 DEBUG = True
 
 allowed_hosts =  json.loads(os.environ.get('ALLOWED_HOSTS','[]'))
-print("---------",allowed_hosts)
-print("type------------",type(allowed_hosts))
 ALLOWED_HOSTS = allowed_hosts #['sramik.onrender.com'] #["sramik.onrender.com","localhost","127.0.0.1"]
 ALLOWED_HOSTS +=["127.0.0.1"]
 # Application definition
@@ -41,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'marketing',
+    'farmers'
 ]
 
 MIDDLEWARE = [
@@ -59,7 +59,7 @@ ROOT_URLCONF = 'sramik.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [BASE_DIR / 'templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -130,8 +130,8 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
-STATIC_URL = 'static/'
-
+STATIC_URL = '/static/'
+STATICFILES_DIRS = [BASE_DIR / 'static']
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
