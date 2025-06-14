@@ -1,0 +1,497 @@
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<section>
+   
+                <div data-wf--hero-simple--variant="base" class="simple-hero">
+                    <div class="simple-hero-title-block">
+                        <div class="container">
+                            <div class="simple-hero-content">
+                                <div class="simple-hero-title-size">
+                                    <h1 class="heading is-simple-hero-title">Our Farm Store</h1>
+                                </div>
+                                <div class="simple-hero-button">
+                                    <a href="#shop-now" class="main-button w-inline-block">
+                                        <p class="main-button-text">Shop Now</p>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5b8_arrow_downward_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simple-hero-paragraph-block">
+                        <div class="container">
+                            <div class="max-width-60">
+                                <p class="paragraph is-large">From vibrant fruits and vegetables to handcrafted treats, our store is your one-stop destination for farm-to-table living. Enjoy fresh and quality products.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="simple-hero-background">
+                        <div class="image-parallax">
+                            <div class="image-animation-trigger">
+                                <div class="parallax-animation">
+                                    <div class="animation-color-bg"></div>
+                                    <img src="{% static 'images/674df336a930ddd34ee3f60e_farm-vegs-3.avif' %}" alt="Farm harvest" class="cover-image is-parallax"/>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="simple-hero-bg-overlay"></div>
+                    </div>
+                </div>
+                <section id="shop-now" class="section with-dark-background">
+                    <div class="container">
+                        <div class="padding small-paddings">
+                            <div class="featured-products w-dyn-list">
+                                <div role="list" class="featured-products-list w-dyn-items">
+                                    <div role="listitem" class="featured-product-item w-dyn-item">
+                                        <div class="featured-product-border">
+                                            <a href="#" class="featured-product-link w-inline-block">
+                                                <div class="featured-product-image">
+                                                    <div class="_3d-block">
+                                                        <div class="_3d-trigger">
+                                                            <div class="parallax-animation">
+                                                                <img 
+  loading="lazy" 
+  data-wf-sku-bindings='[{"from":"f_main_image_4dr","to":"src"}]' 
+  alt="Guided Farm Tour" 
+  src="{% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama.jpeg' %}" 
+  sizes="(max-width: 479px) 85vw, (max-width: 767px) 91vw, (max-width: 991px) 93vw, (max-width: 1439px) 91vw, 94vw" 
+  srcset="
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama-p-500.jpeg' %} 500w,
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama-p-800.jpeg' %} 800w,
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama-p-1080.jpeg' %} 1080w,
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama-p-1600.jpeg' %} 1600w,
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama-p-2000.jpeg' %} 2000w,
+    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama.jpeg' %} 2400w
+  " 
+  class="cover-image is-parallax" 
+/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="featured-product-overlay-1"></div>
+                                                </div>
+                                                <div class="featured-product-content">
+                                                    <div class="featured-product-categories">
+                                                        <div class="product-shop-badge">
+                                                            <img src="{% static 'images/674df336a930ddd34ee3f60f_star_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                            <p class="paragraph">Featured</p>
+                                                        </div>
+                                                        <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22Europe%2FBratislava%22%7D" class="product-shop-badge w-condition-invisible">
+                                                            <img src="{% static 'images/674df336a930ddd34ee3f610_sell_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                            <p class="paragraph">Sale</p>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="heading is-featured-product-title">Guided Farm Tour</h2>
+                                                </div>
+                                                <div class="featured-product-button">
+                                                    <div class="featured-product-prices">
+                                                        <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price is-compare-price w-dyn-bind-empty"></p>
+                                                        <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price">$ 15.00 USD</p>
+                                                    </div>
+                                                    <div class="main-button">
+                                                        <p class="main-button-text">Detail</p>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f589_arrow_forward_24dp_17161F_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="featured-product-item w-dyn-item">
+                                        <div class="featured-product-border">
+                                            <a href="#" class="featured-product-link w-inline-block">
+                                                <div class="featured-product-image">
+                                                    <div class="_3d-block">
+                                                        <div class="_3d-trigger">
+                                                            <div class="parallax-animation">
+                                                                <img loading="lazy" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" alt="Family Fresh Basket" src="{% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3.jpg' %}" sizes="(max-width: 479px) 85vw, (max-width: 767px) 91vw, (max-width: 991px) 93vw, (max-width: 1439px) 91vw, 94vw" srcset="{% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-500.jpg' %} 500w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-800.jpg' %} 800w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-1080.jpg' %} 1080w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-1600.jpg' %} 1600w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-2000.jpg' %} 2000w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3.jpg' %} 2912w" class="cover-image is-parallax"/>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="featured-product-overlay-1"></div>
+                                                </div>
+                                                <div class="featured-product-content">
+                                                    <div class="featured-product-categories">
+                                                        <div class="product-shop-badge">
+                                                            <img src="{% static 'images/674df336a930ddd34ee3f60f_star_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                            <p class="paragraph">Featured</p>
+                                                        </div>
+                                                        <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22Europe%2FBratislava%22%7D" class="product-shop-badge">
+                                                            <img src="{% static 'images/674df336a930ddd34ee3f610_sell_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                            <p class="paragraph">Sale</p>
+                                                        </div>
+                                                    </div>
+                                                    <h2 class="heading is-featured-product-title">Family Fresh Basket</h2>
+                                                </div>
+                                                <div class="featured-product-button">
+                                                    <div class="featured-product-prices">
+                                                        <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price is-compare-price">$ 129.00 USD</p>
+                                                        <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price">$ 99.00 USD</p>
+                                                    </div>
+                                                    <div class="main-button">
+                                                        <p class="main-button-text">Detail</p>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f589_arrow_forward_24dp_17161F_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="section with-light-gradient">
+                    <div class="container">
+                        <div class="padding">
+                            <div data-wf--section-content-block--variant="with-margin" class="section-content-block w-variant-b545fa43-40fa-8293-2e93-790fc0985468">
+                                <div data-wf--marker--variant="base" class="marker">
+                                    <div class="marker-title-wrapper">
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5c6_line_start_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left for-dark-bg"/>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5ba_line_start_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left"/>
+                                        <div class="marker-title">Listing</div>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5bb_line_end_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right"/>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5c7_line_end_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right for-dark-bg"/>
+                                    </div>
+                                    <div class="marker-number">I</div>
+                                </div>
+                                <h2 data-w-id="80086e74-9235-ae1a-d2a6-ce2f6e6ae4ab" class="heading is-large-title">Products grown with sustainability in mind</h2>
+                            </div>
+                            <div class="products-shop w-dyn-list">
+                                <div role="list" class="products-shop-list w-dyn-items">
+                                    <div id="w-node-_8d3c4b79-819f-2874-254d-2077cd0bfa28-4ee3f34f" role="listitem" class="product-shop-item w-dyn-item">
+                                        <div class="product-shop-image">
+                                            <div class="product-shop-badges">
+                                                <div class="product-shop-badge">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f60f_star_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Featured</p>
+                                                </div>
+                                                <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22Europe%2FBratislava%22%7D" class="product-shop-badge w-condition-invisible">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f610_sell_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Sale</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-shop-buttons">
+                                                <a href="#" class="product-detail-button w-inline-block">
+                                                    <div>Detail</div>
+                                                </a>
+                                                <div class="add-to-cart">
+                                                    <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="674df336a930ddd34ee3f4c5" data-loading-text="Adding to cart..." data-commerce-product-id="674df336a930ddd34ee3f4c2" class="w-commerce-commerceaddtocartform product-shop-cart-button">
+                                                        <input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button" value="Add to Cart"/>
+                                                        <a data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton" href="#">Buy now</a>
+                                                    </form>
+                                                    <div tabindex="0" style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state" tabindex="0">
+                                                        <div>Out of stock.</div>
+                                                    </div>
+                                                    <div aria-live="assertive" data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror error-state">
+                                                        <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription." data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="_3d-block">
+                                                <div class="_3d-trigger">
+                                                    <img 
+                                                                src="{% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama.jpeg' %}" 
+                                                                data-wf-sku-bindings='[{"from":"f_main_image_4dr","to":"src"}]' 
+                                                                alt="Guided Farm Tour" 
+                                                                sizes="(max-width: 479px) 88vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, (max-width: 1439px) 28vw, 29vw" 
+                                                                srcset="
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene20Panorama-p-500.jpeg' %} 500w,
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene20Panorama-p-800.jpeg' %} 800w,
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene20Panorama-p-1080.jpeg' %} 1080w,
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene20Panorama-p-1600.jpeg' %} 1600w,
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene20Panorama-p-2000.jpeg' %} 2000w,
+                                                                    {% static 'images/674df336a930ddd34ee3f67d_Serene Vineyard Panorama.jpeg' %} 2400w
+                                                                " 
+                                                                class="cover-image" 
+                                                                />
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-shop-content">
+                                            <a href="#" class="product-shop-title-link w-inline-block">
+                                                <h2 class="heading is-product-shop-title">Guided Farm Tour</h2>
+                                            </a>
+                                            <p class="paragraph">Embark on a 1-hour guided tour of our farm to explore the fields and learn about farming practices. </p>
+                                            <div class="product-shop-prices">
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price is-compare-price w-dyn-bind-empty"></p>
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price">$ 15.00 USD</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="w-node-_8d3c4b79-819f-2874-254d-2077cd0bfa28-4ee3f34f" role="listitem" class="product-shop-item w-dyn-item">
+                                        <div class="product-shop-image">
+                                            <div class="product-shop-badges">
+                                                <div class="product-shop-badge">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f60f_star_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Featured</p>
+                                                </div>
+                                                <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22Europe%2FBratislava%22%7D" class="product-shop-badge">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f610_sell_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Sale</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-shop-buttons">
+                                                <a href="#" class="product-detail-button w-inline-block">
+                                                    <div>Detail</div>
+                                                </a>
+                                                <div class="add-to-cart">
+                                                    <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="674df336a930ddd34ee3f4c3" data-loading-text="Adding to cart..." data-commerce-product-id="674df336a930ddd34ee3f4c0" class="w-commerce-commerceaddtocartform product-shop-cart-button">
+                                                        <input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button" value="Add to Cart"/>
+                                                        <a data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton" href="#">Buy now</a>
+                                                    </form>
+                                                    <div tabindex="0" style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state" tabindex="0">
+                                                        <div>Out of stock.</div>
+                                                    </div>
+                                                    <div aria-live="assertive" data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror error-state">
+                                                        <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription." data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="_3d-block">
+                                                <div class="_3d-trigger">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3.jpg' %}" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" alt="Family Fresh Basket" sizes="(max-width: 479px) 88vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, (max-width: 1439px) 28vw, 29vw" srcset="{% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-500.jpg' %} 500w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-800.jpg' %} 800w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-1080.jpg' %} 1080w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-1600.jpg' %} 1600w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3-p-2000.jpg' %} 2000w, {% static 'images/674df336a930ddd34ee3f50a_farm-vegs-3.jpg' %} 2912w" class="cover-image"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-shop-content">
+                                            <a href="#" class="product-shop-title-link w-inline-block">
+                                                <h2 class="heading is-product-shop-title">Family Fresh Basket</h2>
+                                            </a>
+                                            <p class="paragraph">Feed your family with a basket full of farm-fresh, seasonal produce. Perfect for delicious, healthy meals.</p>
+                                            <div class="product-shop-prices">
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price is-compare-price">$ 129.00 USD</p>
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price">$ 99.00 USD</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div id="w-node-_8d3c4b79-819f-2874-254d-2077cd0bfa28-4ee3f34f" role="listitem" class="product-shop-item w-dyn-item">
+                                        <div class="product-shop-image">
+                                            <div class="product-shop-badges">
+                                                <div class="product-shop-badge w-condition-invisible">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f60f_star_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Featured</p>
+                                                </div>
+                                                <div data-wf-sku-conditions="%7B%22condition%22%3A%7B%22fields%22%3A%7B%22default-sku%3Acompare-at-price%22%3A%7B%22exists%22%3A%22yes%22%2C%22type%22%3A%22CommercePrice%22%7D%7D%7D%2C%22timezone%22%3A%22Europe%2FBratislava%22%7D" class="product-shop-badge">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f610_sell_24dp_DDF1E7_FILL0_wght500_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="icon is-badge-icon"/>
+                                                    <p class="paragraph is-small">Sale</p>
+                                                </div>
+                                            </div>
+                                            <div class="product-shop-buttons">
+                                                <a href="#" class="product-detail-button w-inline-block">
+                                                    <div>Detail</div>
+                                                </a>
+                                                <div class="add-to-cart">
+                                                    <form data-node-type="commerce-add-to-cart-form" data-commerce-sku-id="674df336a930ddd34ee3f4c4" data-loading-text="Adding to cart..." data-commerce-product-id="674df336a930ddd34ee3f4c1" class="w-commerce-commerceaddtocartform product-shop-cart-button">
+                                                        <input type="submit" data-node-type="commerce-add-to-cart-button" data-loading-text="Adding..." aria-busy="false" aria-haspopup="dialog" class="w-commerce-commerceaddtocartbutton add-to-cart-button" value="Add to Cart"/>
+                                                        <a data-node-type="commerce-buy-now-button" data-default-text="Buy now" data-subscription-text="Subscribe now" aria-busy="false" aria-haspopup="false" style="display:none" class="w-commerce-commercebuynowbutton" href="#">Buy now</a>
+                                                    </form>
+                                                    <div tabindex="0" style="display:none" class="w-commerce-commerceaddtocartoutofstock out-of-stock-state" tabindex="0">
+                                                        <div>Out of stock.</div>
+                                                    </div>
+                                                    <div aria-live="assertive" data-node-type="commerce-add-to-cart-error" style="display:none" class="w-commerce-commerceaddtocarterror error-state">
+                                                        <div data-node-type="commerce-add-to-cart-error" data-w-add-to-cart-quantity-error="Product is not available in this quantity." data-w-add-to-cart-general-error="Something went wrong when adding this item to the cart." data-w-add-to-cart-mixed-cart-error="You can’t purchase another product with a subscription." data-w-add-to-cart-buy-now-error="Something went wrong when trying to purchase this item." data-w-add-to-cart-checkout-disabled-error="Checkout is disabled on this site." data-w-add-to-cart-select-all-options-error="Please select an option in each set.">Product is not available in this quantity.</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="_3d-block">
+                                                <div class="_3d-trigger">
+                                                    <img src="{% static 'images/674df336a930ddd34ee3f597_farm-vegs-1.jpg' %}" data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_main_image_4dr%22%2C%22to%22%3A%22src%22%7D%5D" alt="Seasonal Veggie Basket" sizes="(max-width: 479px) 88vw, (max-width: 767px) 93vw, (max-width: 991px) 95vw, (max-width: 1439px) 28vw, 29vw" srcset="{% static 'images/674df336a930ddd34ee3f597_farm-vegs-1-p-500.jpg' %} 500w, {% static 'images/674df336a930ddd34ee3f597_farm-vegs-1-p-800.jpg' %} 800w, {% static 'images/674df336a930ddd34ee3f597_farm-vegs-1-p-1080.jpg' %} 1080w, {% static 'images/674df336a930ddd34ee3f597_farm-vegs-1-p-1600.jpg' %} 1600w, {% static 'images/674df336a930ddd34ee3f597_farm-vegs-1-p-2000.jpg' %} 2000w, {% static 'images/674df336a930ddd34ee3f597_farm-vegs-1.jpg' %} 2912w" class="cover-image"/>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-shop-content">
+                                            <a href="#" class="product-shop-title-link w-inline-block">
+                                                <h2 class="heading is-product-shop-title">Seasonal Veggie Basket</h2>
+                                            </a>
+                                            <p class="paragraph">A handpicked assortment of the freshest, seasonal vegetables straight from our fields to your table.</p>
+                                            <div class="product-shop-prices">
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_compare_at_price_7dr10dr%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price is-compare-price">$ 99.00 USD</p>
+                                                <p data-wf-sku-bindings="%5B%7B%22from%22%3A%22f_price_%22%2C%22to%22%3A%22innerHTML%22%7D%5D" class="product-shop-price">$ 79.00 USD</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                        <img 
+                        src="{% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2.webp' %}" 
+                        loading="lazy" 
+                        sizes="(max-width: 479px) 35vw, 30vw" 
+                        srcset="
+                            {% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2-p-500.webp' %} 500w, 
+                            {% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2-p-800.webp' %} 800w, 
+                            {% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2-p-1080.webp' %} 1080w, 
+                            {% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2-p-1600.webp' %} 1600w, 
+                            {% static 'images/674df336a930ddd34ee3f5ea_farm-illustration-2.webp' %} 2048w
+                        " 
+                        alt="" 
+                        class="background-illustration-1" 
+                        />
+
+                  
+                        <img 
+                        src="{% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1.webp' %}" 
+                        loading="lazy" 
+                        sizes="(max-width: 479px) 35vw, 30vw" 
+                        srcset="
+                            {% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1-p-500.webp' %} 500w,
+                            {% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1-p-800.webp' %} 800w,
+                            {% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1-p-1080.webp' %} 1080w,
+                            {% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1-p-1600.webp' %} 1600w,
+                            {% static 'images/674df336a930ddd34ee3f5ed_farm-illustration-1.webp' %} 2048w
+                        " 
+                        alt="" 
+                        class="background-illustration-2" 
+                        />
+
+                </section>
+                <section class="section with-dark-background">
+                    <div class="container">
+                        <div class="padding">
+                            <div data-wf--section-content-block--variant="with-margin" class="section-content-block w-variant-b545fa43-40fa-8293-2e93-790fc0985468">
+                                <div data-wf--marker--variant="dark-background" class="marker">
+                                    <div class="marker-title-wrapper">
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5c6_line_start_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604 for-dark-bg"/>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5ba_line_start_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-left w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604"/>
+                                        <div class="marker-title">Categories</div>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5bb_line_end_diamond_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604"/>
+                                        <img src="{% static 'images/674df336a930ddd34ee3f5c7_line_end_diamond_24dp_EDFCF4_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="marker-icon is-right w-variant-4efdea9d-ca17-7c39-4e67-e4109e691604 for-dark-bg"/>
+                                    </div>
+                                    <div class="marker-number">II</div>
+                                </div>
+                                <h2 data-w-id="80086e74-9235-ae1a-d2a6-ce2f6e6ae4ab" class="heading is-large-title">A Taste of Nature’s Best &amp;Fresh to Your Table</h2>
+                            </div>
+                            <div class="shop-categories w-dyn-list">
+                                <div role="list" class="shop-categories-list w-dyn-items">
+                                    <div role="listitem" class="shop-category-item w-dyn-item">
+                                        <div class="shop-category-borders">
+                                            <a aria-label="Open shop category" href="#" class="shop-category-link w-inline-block">
+                                                <div class="shop-category-image">
+                                                    <img 
+                                                        loading="lazy" 
+                                                        alt="Farm Experiences" 
+                                                        src="{% static 'images/674df336a930ddd34ee3f581_Hands_Nurturing_Plant.jpeg' %}" 
+                                                        sizes="(max-width: 479px) 78vw, (max-width: 767px) 85vw, (max-width: 991px) 21vw, (max-width: 1439px) 15vw, (max-width: 1919px) 225.1953125px, 240.3984375px" 
+                                                        srcset="
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands20Plant-p-500.jpeg' %} 500w,
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands20Plant-p-800.jpeg' %} 800w,
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands20Plant-p-1080.jpeg' %} 1080w,
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands20Plant-p-1600.jpeg' %} 1600w,
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands20Plant-p-2000.jpeg' %} 2000w,
+                                                            {% static 'images/674df336a930ddd34ee3f581_Hands_Nurturing_Plant.jpeg' %} 2400w
+                                                        " 
+                                                        class="cover-image is-parallax" 
+                                                        />
+                                                </div>
+                                                <h2 class="heading is-shop-category-title">Farm Experiences</h2>
+                                                <div class="shop-category-button">
+                                                    <div class="main-button">
+                                                        <p class="main-button-text">Products</p>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f58a_arrow_forward_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div role="listitem" class="shop-category-item w-dyn-item">
+                                        <div class="shop-category-borders">
+                                            <a aria-label="Open shop category" href="#" class="shop-category-link w-inline-block">
+                                                <div class="shop-category-image">
+                                                    <img 
+                                                            loading="lazy" 
+                                                            alt="Harvest Baskets" 
+                                                            src="{% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg.webp' %}" 
+                                                            sizes="(max-width: 479px) 78vw, (max-width: 767px) 85vw, (max-width: 991px) 21vw, (max-width: 1439px) 15vw, (max-width: 1919px) 225.1953125px, 240.3984375px" 
+                                                            srcset="
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-500.webp' %} 500w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-800.webp' %} 800w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-1080.webp' %} 1080w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-1600.webp' %} 1600w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-2000.webp' %} 2000w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg-p-2600.webp' %} 2600w,
+                                                                {% static 'images/674df336a930ddd34ee3f56a_harvest-basket-bg.webp' %} 2912w
+                                                            " 
+                                                            class="cover-image is-parallax" 
+                                                            />
+                                                </div>
+                                                <h2 class="heading is-shop-category-title">Harvest Baskets</h2>
+                                                <div class="shop-category-button">
+                                                    <div class="main-button">
+                                                        <p class="main-button-text">Products</p>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f58a_arrow_forward_24dp_1F3329_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="main-button-icon"/>
+                                                        <img src="{% static 'images/674df336a930ddd34ee3f614_leaf-1.avif' %}" loading="lazy" alt="" class="main-button-pattern"/>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="shop-category-bg">
+                        <div class="shop-category-bg-overlay"></div>
+                        <div 
+                            data-poster-url="{% static 'images/6721f61bb5546c560c953b02_67292fae71a30fa02d0e9d22_farm-field-video-cut-poster-00001.jpg' %}" 
+                            data-video-urls="{% static 'images/674df336a930ddd34ee3f5f1_farm-field-video-cut-transcode.mp4' %}, {% static 'images/674df336a930ddd34ee3f5f1_farm-field-video-cut-transcode.webm' %}" 
+                            data-autoplay="true" 
+                            data-loop="true" 
+                            data-wf-ignore="true" 
+                            class="cover-video w-background-video w-background-video-atom">
+                            
+                                <video 
+                                    id="3587cc5a-461e-3922-3f9c-91f2757ec5d2-video"
+                                    autoplay 
+                                    loop 
+                                    muted 
+                                    playsinline 
+                                    data-wf-ignore="true" 
+                                    data-object-fit="cover"
+                                    style="background-image: url('{% static 'images/6721f61bb5546c560c953b02_67292fae71a30fa02d0e9d22_farm-field-video-cut-poster-00001.jpg' %}');">
+                                    
+                                    <source src="{% static 'images/674df336a930ddd34ee3f5f1_farm-field-video-cut-transcode.mp4' %}" type="video/mp4" data-wf-ignore="true"/>
+                                    <source src="{% static 'images/674df336a930ddd34ee3f5f1_farm-field-video-cut-transcode.webm' %}" type="video/webm" data-wf-ignore="true"/>
+                                    
+                                    Your browser does not support the video tag.
+                                </video>
+
+                        </div>
+                    </div>
+                </section>
+                <div class="footer">
+                    <div class="footer-newsletter">
+                        <div class="container">
+                            <div class="footer-newsletter-layout">
+                                <p class="paragraph is-large">
+                                    Subscribe <span class="opacity-70">to our newsletter</span>
+                                </p>
+                                <div class="footer-newsletter-form-block">
+                                    <div class="newsletter-form ">
+                                        <form id="wf-form-Newsletter" name="wf-form-Newsletter" data-name="Newsletter" method="get" class="newsletter-form-layout" data-wf-page-id="674df336a930ddd34ee3f34f" data-wf-element-id="853d8d5b-3ec3-2c6a-ff99-63f9781b4b3d" data-turnstile-sitekey="0x4AAAAAAAQTptj2So4dx43e">
+                                            <input class="newsletter-field w-input" maxlength="256" name="Email" data-name="Email" placeholder="your.email@example.com" type="email" id="newsletter-email" required=""/>
+                                            <input type="submit" data-wait="Sending..." class="newsletter-submit-button w-button" value="Sign up"/>
+                                        </form>
+                                        <div class="form-success-message is-newsletter w-form-done">
+                                            <div class="form-newsletter-success-text">You are subscribed!</div>
+                                        </div>
+                                        <div class="form-error-message w-form-fail">
+                                            <p class="form-error-paragraph">An error has occurred somewhere and it is not possible to submit the form. Please try again later.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+     
+</section>
+
+{% endblock %}

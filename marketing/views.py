@@ -6,3 +6,13 @@ from django.shortcuts import render
 
 def marketing_page(request):
     return render(request,'index.html')
+
+
+def contact_page(request):
+    return render(request,"contact.html")
+
+def gallery(request):
+    return render(request,"gallerys.html")
+
+def store(request):
+    return render(request,"store.html")
