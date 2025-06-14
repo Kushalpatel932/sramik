@@ -86,6 +86,7 @@ WSGI_APPLICATION = 'sramik.wsgi.application'
 
 
 DATABASES_INFO  = os.environ.get('DATABASES_INFO')
+DATABASES_INFO ='postgresql://sarmik_database_v1_user:HLZsrCXEsTKS6xDa4XASTxupe0bs7LRi@dpg-d124s149c44c73furek0-a.oregon-postgres.render.com/sarmik_database_v1'
 DATABASES = {
     'default': dj_database_url.config(
         # Replace this value with your local database's connection string.
