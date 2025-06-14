@@ -1,34 +1,43 @@
+# 🌿 Sramik — From Our Farm to Your Table, Pure and Organic
 
-🥦 From Our Farm to Your Table – Pure and Organic
-Welcome to the Pure and Organic farm experience website! 🌾
-Our mission is to connect people with healthy, sustainable, and locally-grown produce – directly from our farm to your table.
+[Sramik Live Site](https://sramik.onrender.com/)
 
-🌱 About the Project
-This website was built to promote our farm’s commitment to:
+Sramik is a modern, responsive website crafted to promote fresh, organic produce directly from farmers to your table. The project blends elegant design with performance-focused development using Django.
 
-✅ 100% organic and chemical-free produce
+---
 
-🚜 Sustainable and responsible farming practices
+## 🌾 About
 
-🍓 Fresh harvests delivered directly to consumers
+Our mission is simple:
 
-👨‍🌾 Farm tours and experiences that bring you closer to nature
+**From Our Farm to Your Table. Pure and Organic.**
 
-💻 Tech Stack
-Frontend: HTML5, CSS3, JavaScript
+This site represents:
 
-Backend: Django (Python)
+- 🌱 100% Organic Farming  
+- 🚜 Direct Farm-to-Table Distribution  
+- 🎥 Engaging Background Videos & Images  
+- 📱 Mobile-Responsive Layout  
 
-Template Engine: Django Templating with Static & Media Files
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend**: HTML5, CSS3, JavaScript (Webflow-to-Django conversion)
+- **Backend**: Django (Python)
+- **Deployment**: Render.com
+- **Assets**: Optimized images & video served via Django `{% static %}`
+
+---
+
+## ✨ Features
+
+- ✅ Lazy-loaded WebP & responsive image sets
+- ✅ Video backgrounds with autoplay/mute/loop
+- ✅ SEO-friendly & fast-loading pages
+- ✅ CDN-integrated CSS/JS for performance
+- ✅ Django templating & static file handling
+
+---
 
 
-📸 Features
-Beautiful illustrations and videos showcasing our farm
-
-Responsive design for mobile and desktop
-
-Lazy-loaded images for faster performance
-
-Background videos and image parallax
-
-Easy-to-navigate sections highlighting produce, experiences, and more
