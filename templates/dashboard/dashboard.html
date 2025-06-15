@@ -1,0 +1,26 @@
+
+{% extends "base.html" %}
+{% load static %}
+{% block content %}
+<section>
+    <div class="hero-gallery">
+                    <div class="container">
+                        <div class="hero-gallery-content">
+                            <div class="hero-gallery-title-block">
+                                <h1 class="heading is-gallery-hero-title">Hello</h1>
+                            </div>
+                            <div class="hero-gallery-paragraph">
+                                <p class="paragraph">Welcome, {{request.user.username}} 👋 Thank you for logging in.<strong>Heads up!</strong> This site is currently <strong>under construction</strong>. Some sections may not be fully functional yet. </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="home-hero-overlay"></div>
+                    <div data-poster-url="https://cdn.prod.website-files.com/6721f61bb5546c560c953b02%2F673a503680570e7cba76c728_bg-farm-field-compress-f-poster-00001.jpg" data-video-urls="https://cdn.prod.website-files.com/674df336a930ddd34ee3f28e/674df336a930ddd34ee3f5f7_bg-farm-field-compress-f-transcode.mp4,https://cdn.prod.website-files.com/674df336a930ddd34ee3f28e/674df336a930ddd34ee3f5f7_bg-farm-field-compress-f-transcode.webm" data-autoplay="true" data-loop="true" data-wf-ignore="true" class="cover-video w-background-video w-background-video-atom">
+                        <video id="355d8113-8626-23d0-79f0-0d7164103180-video" autoplay="" loop="" style="background-image:url(&quot;https://cdn.prod.website-files.com/6721f61bb5546c560c953b02%2F673a503680570e7cba76c728_bg-farm-field-compress-f-poster-00001.jpg&quot;)" muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover">
+                            <source src="{% static 'videos/3784008-hd_1920_1080_24fps.mp4' %}" data-wf-ignore="true"/>
+                            <source src="https://cdn.prod.website-files.com/674df336a930ddd34ee3f28e/674df336a930ddd34ee3f5f7_bg-farm-field-compress-f-transcode.webm" data-wf-ignore="true"/>
+                        </video>
+                    </div>
+                </div>
+</section>
+{% endblock %}
