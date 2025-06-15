@@ -5,7 +5,10 @@ from django.shortcuts import render
 
 
 def marketing_page(request):
-    return render(request,'index.html')
+    if request.user.is_authenticated:
+        return render(request, 'dashboard/dashboard.html')
+    else:
+        return render(request, 'index.html')
 
 
 def contact_page(request):

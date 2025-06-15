@@ -37,10 +37,19 @@
                         </form>
                         <div data-node-type="commerce-cart-wrapper" data-open-product="" data-wf-cart-type="rightSidebar"data-wf-page-link-href-prefix="" class="w-commerce-commercecartwrapper nav-cart">
 
-                        <a href="#" data-node-type="commerce-cart-open-link" aria-haspopup="dialog" aria-label="Open cart" role="button" class="w-commerce-commercecartopenlink nav-cart-button w-inline-block">
+                        {% if request.user.is_authenticated %}
+                        <a href="/" data-node-type="commerce-cart-open-link" aria-haspopup="dialog" aria-label="Open cart" role="button" class="w-commerce-commercecartopenlink nav-cart-button w-inline-block">
+                            
+                           <span class="Login-user"> {{ request.user.username }}</span>
                                 <img src="{% static 'images/674df336a930ddd34ee3f59c_shopping_basket_24dp_E0F8EC_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="nav-button-icon"/>
                                 
                             </a>
+                        {% else %}
+                         <a href="auth/login" data-node-type="commerce-cart-open-link" aria-haspopup="dialog" aria-label="Open cart" role="button" class="w-commerce-commercecartopenlink nav-cart-button w-inline-block">
+                            <span class="Login-user">Login</span>
+                            <img src="{% static 'images/674df336a930ddd34ee3f59c_shopping_basket_24dp_E0F8EC_FILL0_wght600_GRAD0_opsz24.svg' %}" loading="lazy" alt="" class="nav-button-icon"/>
+                         </a>
+                            {% endif %}
                         </div>
     </div>
 </nav>
