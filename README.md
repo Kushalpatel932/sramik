@@ -39,5 +39,7 @@ This site represents:
 - ✅ Django templating & static file handling
 
 ---
-
+## Run locally
+```bash
+python manage.py runserver
 
